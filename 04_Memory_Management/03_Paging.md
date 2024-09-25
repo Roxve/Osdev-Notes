@@ -246,7 +246,7 @@ If we are using 4kB pages this is how the address will be handled by the paging 
 * Offset in the page table.
 
 Same as above:
-Every table has 512 elements, so we have an address space of: $512*512*512*512*0x1000$ (that is the page size)
+Every table has 512 elements, so we have an address space of: $512 * 512 * 512 * 512 * 0x1000$ (that is the page size)
 
 ## Page Fault
 
